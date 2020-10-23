@@ -1,5 +1,5 @@
 * {
-    margin: 25px;
+    margin: 0;
     padding: 0;
 }
 
@@ -11,7 +11,7 @@
     /*grid-template-columns: 1fr 3fr 1fr;*/
     /*grid-template-columns: minmax(300px, 600px) 3fr 1fr; */
     /* grid-template-columns: 150px 1fr 150px; */
-    grid-template-columns: minmax(100px, 1/3) minmax(100px, 1/3) minmax(100px, 1/3);
+    grid-template-columns: minmax(400px, 2/3) minmax(100px, 1/3);
     grid-template-rows: 100px 1fr 50px;
     grid-gap: 1rem;
     min-height: 100vh;
@@ -44,7 +44,7 @@
 }
 
 .four {
-    grid-area: rsidebar;
+    grid-area: rsidebar; */
 }
     
 .five {
